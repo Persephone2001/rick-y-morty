@@ -1,0 +1,122 @@
+/*FONDO*/
+
+body {
+    background-image: url("img/rickymorty.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.inicio2{
+    background-color: #ffffffe6;
+    backdrop-filter: blur(1px);
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+}
+
+/*columnas*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100%;
+}
+
+/*columnas contactos*/
+
+.contact-page{
+    background-color: #536b84e6; 
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin: 10%;
+    padding: 5%;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.flex-container-form{
+    display: inline-flex;
+    align-items: center;
+
+}
+
+
+/*FUENTES*/
+
+  
+ h1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+   
+ }
+
+ h2{
+    
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+ 
+
+ }
+
+ h3 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+ 
+
+
+ }
+
+ p{ 
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+
+ }
+
+ .contact-form {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 440;
+    font-style: normal;
+    text-align: start;
+    font-size: 16px;
+
+
+
+ }
+
+ /*AGREGANDO COLORES A LAS FUENTES*/
+ .color1{
+    color: #344d67;
+ }
+
+ .color3{
+    color: #223142;
+ }
+
+
+  
+  
